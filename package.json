@@ -1,0 +1,35 @@
+{
+  "name": "Typescript",
+  "version": "0.0.1",
+  "author": {
+    "name": "Khaliq Gant",
+    "email": "khaliqgant@gmail.com",
+    "url": "https://github.com/khaliqgant"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaliqgant/"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "dev": "node ./dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^8",
+    "@types/react": "^16.3.16",
+    "awesome-typescript-loader": "^5.0.0",
+    "grunt": "^1.0.2",
+    "grunt-ts": "^6.0.0-beta.19",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^4.0.2",
+    "typescript": "^2.8.3",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.0"
+  }
+}

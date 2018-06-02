@@ -1,0 +1,25 @@
+{
+  "name": "Typescript",
+  "version": "0.0.1",
+  "author": {
+    "name": "Khaliq Gant",
+    "email": "khaliqgant@gmail.com",
+    "url": "https://github.com/khaliqgant"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaliqgant/"
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "dev": "node ./dist/server.js"
+  },
+  "devDependencies": {
+    "@types/node": "^8",
+    "typescript": "^2.8.3",
+  }
+}
+
