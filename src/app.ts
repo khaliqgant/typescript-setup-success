@@ -38,6 +38,7 @@ export class App {
 
 export const app: App = new App();
 
+// Functions
 /**
  *
  * Options

@@ -19,6 +19,9 @@ module.exports = {
     module: {
         rules: [
             {
+                //options: {
+                    //configFileName: 'tsconfig.server.json'
+                //},
                 test: /\.tsx?$/,
                 loader: 'awesome-typescript-loader'
             }
