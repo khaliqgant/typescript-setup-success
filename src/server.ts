@@ -3,7 +3,6 @@ import { Config as _Config } from './IConfig';
 
 import { app } from './app';
 
-//React.createElement
 //React.isValidElement
 
 const state: string = app.state;

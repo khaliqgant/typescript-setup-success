@@ -1,5 +1,5 @@
 // non blocking errors
-let foo = 123;
+let foo: number = 123;
 
 foo = '456';
 
