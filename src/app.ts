@@ -38,6 +38,13 @@ export class App {
 
 export const app: App = new App();
 
+
+// examples
+
+//function foo(problem) {
+    //return problem + 's';
+//}
+
 // Functions
 /**
  *

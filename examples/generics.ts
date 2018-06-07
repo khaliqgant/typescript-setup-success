@@ -17,17 +17,17 @@ queue.push('1');
 
 /**
  *
- * GQ ;)
+ * IQ ;)
  * @desc this generic usage allows us freedom and instantiate
- * any type of queue at will. A true GQ
+ * any type of queue at will. IQ++
  *
  */
-class GQueue<G> {
+class IQueue<I> {
     private data = [];
-    push = (item: G) => this.data.push(item);
-    pop = (): G => this.data.shift();
+    push = (item: I) => this.data.push(item);
+    pop = (): I => this.data.shift();
 }
 
-const gQueue = new GQueue<number>();
-const gQueued = new GQueue<string>();
+const iQ = new IQueue<number>();
+const iQueued = new IQueue<string>();
 
